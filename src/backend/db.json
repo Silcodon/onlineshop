@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "email": "regular@example.com",
+      "password": "$2a$10$2myKMolZJoH.q.cyXClQXufY1Mc7ETKdSaQQCC6Fgtbe0DCXRBELG",
+      "id": 1
+    },
+    {
+      "email": "admin@example.com",
+      "password": "$2a$10$w8qB40MdYkMs3dgGGf0Pu.xxVOOzWdZ5/Nrkleo3Gqc88PF/OQhOG",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": "hdmdu0t80yjkfqselfc",
+      "name": "shoes",
+      "stock": 10,
+      "price": 399.99,
+      "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "image": "https://bulma.io/images/placeholders/128x128.png"
+    },
+    {
+      "id": "3dc7fiyzlfmkfqseqam",
+      "name": "bags",
+      "stock": 20,
+      "price": 299.99,
+      "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "image": "https://bulma.io/images/placeholders/128x128.png"
+    },
+    {
+      "id": "aoe8wvdxvrkfqsew67",
+      "name": "shirts",
+      "stock": 15,
+      "price": 149.99,
+      "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "image": "https://bulma.io/images/placeholders/128x128.png"
+    },
+    {
+      "id": "bmfrurdkswtkfqsf15j",
+      "name": "shorts",
+      "stock": 5,
+      "price": 109.99,
+      "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "image": "https://bulma.io/images/placeholders/128x128.png"
+    },
+    {
+      "id": "eerqxe9wx9vkvcong8c",
+      "name": "sapo",
+      "price": "2",
+      "stock": "",
+      "shortDesc": "",
+      "description": "",
+      "image": "data:image/jpeg;base64,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"
+    }
+  ]
+}
